@@ -17,36 +17,23 @@ public class HW6 {
         for (int i = 0; i < countries.length; i++) {
             for (int j = 0; j < countries[i].length; j++) {
                 System.out.print(countries[i][j] + " ");
-
-
             }
             System.out.println();
-
         }
         System.out.println();
-
-
         for (String[] country : countries) {
             for (String s : country) {
                 System.out.print(s + " ");
-
-
             }
-
             System.out.println();
-
-
         }
         System.out.println();
         int count = 0;
         for (int i = 0; i < countries.length; i++) {
             count += countries[i].length;
         }
-
         System.out.println("Total number of countries: " + count);
     }
-
-
 }
 
 
