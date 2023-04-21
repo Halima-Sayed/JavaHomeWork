@@ -27,6 +27,7 @@ public class HW6 {
             }
             System.out.println();
         }
+
         System.out.println();
         int count = 0;
         for (int i = 0; i < countries.length; i++) {
