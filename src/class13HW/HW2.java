@@ -12,10 +12,12 @@ Abbc =>false
         str1 = str1.toUpperCase();
         String str2 = "Water";
         String str3 = "farwa";
+        String str4 = "Wow";
 
         System.out.println(str1 + " " + checkPalindrome(str1));
         System.out.println(str2 + " " + checkPalindrome(str2));
         System.out.println(str3 + " " + checkPalindrome(str3));
+        System.out.println(str4 + " " + checkPalindrome(str4));
     }
 }
 
