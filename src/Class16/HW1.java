@@ -17,4 +17,5 @@ public class HW1 {
         System.out.println(obj.word("HELLO"));
 
     }
+
 }
