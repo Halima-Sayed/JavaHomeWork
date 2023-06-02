@@ -1,5 +1,7 @@
 package Class3And4HomeWork;
 
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 public class HomeWork1DoubleComparison {
     /*
     Create a Java program and name it DoubleComparison.
@@ -16,6 +18,7 @@ public class HomeWork1DoubleComparison {
                     System.out.println("Double value "+apples+" is not larger than "+pears);
 
                 }
+        XSSFWorkbook xssfWorkbook;
     }
 
     }
